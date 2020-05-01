@@ -1,3 +1,5 @@
+# this program sorts strings in following order:
+# lowercase alphabets first --> uppercase aplhabets --> odd numbers--> even numbers
 s=input()
 uc=''
 lc=''
@@ -16,4 +18,4 @@ lc=''.join(sorted(lc))
 uc=''.join(sorted(uc))
 od=''.join(map(str,sorted(odd)))
 ev=''.join(map(str,sorted(even)))
-print(lc+uc+od+ev)
+print(lc+uc+od+ev) 
